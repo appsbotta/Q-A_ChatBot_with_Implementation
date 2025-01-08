@@ -8,7 +8,7 @@ import streamlit as st
 
 
 def get_openaiResponse(question):
-    llm = OpenAI(openai_api_key = os.getenv("OPENAI_API_KEY"),model_name="davinci-002",temperature=0.5)
+    llm = OpenAI(openai_api_key = os.getenv("OPENAI_API_KEY"),model_name="gpt-3.5-turbo-instruct",temperature=0.5)
     response = llm(question)
     return response
 
