@@ -25,4 +25,3 @@ submit = st.button("Ask the question")
 if submit:
     st.subheader("The response is ")
     st.write(response)
-
