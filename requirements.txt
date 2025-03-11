@@ -4,4 +4,13 @@ openai
 huggingface_hub
 python-dotenv
 streamlit
-langchain-openai 
+langchain_openai 
+tiktoken
+mlflow
+faiss-cpu
+starlette
+fastapi
+watchfiles
+slowapi
+gunicorn
+waitress
