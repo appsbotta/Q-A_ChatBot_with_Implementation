@@ -45,7 +45,7 @@ chatllm = ChatOpenAI(temperature=0.5)
 
 if 'flowmessages' not in st.session_state:
     st.session_state['flowmessages'] = [
-        SystemMessage(content="You are a comedian AI assistant")
+        SystemMessage(content="You are a Q & A AI assistant")
     ]
 
 def get_chatResponse(question):
